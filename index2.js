@@ -8,3 +8,7 @@ d3.select('body')
     .append('p') //appends p element to each data element
         //.text('D3 is awesome'); //binds the sentence to every data element
         .text((d) => d); //ES6 function return the individual dataset d
+
+d3.select('h1').style('color', 'red')
+    .attr('class','heading')
+    .text('Data Loading and Binding using D3.js');
