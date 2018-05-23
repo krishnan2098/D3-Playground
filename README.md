@@ -22,9 +22,16 @@ Create a Pull Request to merge into master
 
 Note : Check for Merge Conflicts and CircleCI Test before merging
 
+## Demo
+To play around with the different files, follow the steps given below
+- Open index.html file.
+- In the script tag which links to the .js file, change the filename manually (i.e. if you want to play with index3.js then your script tag will look like `<script src="index3.js"></script>`
+- Open the index.html file on with your browser
+
 ## Tools
 D3.js
 svg
 
 ## Useful links
 https://www.dashingd3js.com/using-the-svg-coordinate-space - Clearly explains the x, y co-ordinate system leveraged by D3.
+http://www.tutorialsteacher.com/d3js/scales-in-d3 - To further understand Scales using D3.js.
